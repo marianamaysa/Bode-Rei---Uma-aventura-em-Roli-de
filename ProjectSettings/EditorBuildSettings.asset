@@ -15,4 +15,5 @@ EditorBuildSettings:
     path: Assets/Kitten Run/Scenes/GameScene.unity
     guid: 66433c29f4a028b489dbdac7cd0298c5
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: b6928bdc691788f4b9d62edd22973538, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 533096b708ee95542a0abfbac62ecd21, type: 2}

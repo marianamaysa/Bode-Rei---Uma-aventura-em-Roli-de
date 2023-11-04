@@ -1246,7 +1246,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24dfb10e51509ed4eb291b92acd8bb98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 0.4
+  initialVelocity: 0
+  acceleration: 0.01
+  maxSpeed: 0.1
 --- !u!23 &528968100
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3021,7 +3023,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24dfb10e51509ed4eb291b92acd8bb98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 0.3
+  initialVelocity: 0
+  acceleration: 0.01
+  maxSpeed: 5
 --- !u!1 &1376121450
 GameObject:
   m_ObjectHideFlags: 0

@@ -165,6 +165,7 @@ public class Game_Manager : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 tapToStartAnimation.SetBool("Tapped", true);
+                tapToStartAnimation.SetBool("Tapped", true);
                 Destroy(tapToStart, 0.3f);
 
                 StartCoroutine(StartDelay());
